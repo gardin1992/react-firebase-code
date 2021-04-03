@@ -2,14 +2,36 @@
   "name": "devdragons-builder",
   "version": "0.1.0",
   "private": true,
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gardin1992/devdragons-builder.git"
+  },
+  "author": "Joao Gardin <gardin1992@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gardin1992/devdragons-builder/issues"
+  },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "ace-builds": "^1.4.12",
+    "firebase": "^8.3.2",
+    "fs-extra": "^9.1.0",
+    "mini.css": "^3.0.1",
+    "mustache": "^4.2.0",
     "react": "^17.0.2",
+    "react-ace": "^9.4.0",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-toastify": "^7.0.3",
+    "web-vitals": "^1.0.1",
+    "classnames": "^2.3.1",
+    "dotenv": "^8.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
